@@ -1,7 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/google-fonts', "@nuxt/image", "@nuxt/ui", "@nuxt/content", 'nuxt-viewport', '@nuxtjs/sitemap'],
+  modules: [
+    '@nuxtjs/google-fonts',
+    '@nuxt/image',
+    '@nuxt/ui',
+    '@nuxt/content',
+    'nuxt-viewport',
+    '@nuxtjs/sitemap',
+    ['@nuxtjs/robots', {
+      configPath: 'robots.config.ts'
+    }]
+  ],
   googleFonts: {
     families: {
       Roboto: true,
