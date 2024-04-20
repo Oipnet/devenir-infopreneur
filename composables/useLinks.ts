@@ -4,13 +4,13 @@ export const useLinks = () => {
             label: 'Accueil',
             to: '/',
         },
-        {
-            label: 'Blog',
-            to: '/blog',
-        },
-        {
-            label: 'Contact',
-            to: '/contact',
-        },
+        // {
+        //     label: 'Blog',
+        //     to: '/blog',
+        // },
+        // {
+        //     label: 'Contact',
+        //     to: '/contact',
+        // },
     ];
 }
