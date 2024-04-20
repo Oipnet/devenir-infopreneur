@@ -4,6 +4,11 @@ description: "Les bases de l'infopreneuriat : Lance-toi dans l'aventure !"
 date: 2024-04-17
 slug: les-bases-de-l-infopreunariat
 coverImage: /content/images/devenir-infopreneur.jpeg
+sitemap:
+  loc: /blog/les-bases-de-l-infopreunariat
+  lastmod: 2024-04-17
+  changefreq: never
+  priority: 0.8
 ---
 ::post
 Hey toi, aspirant infopreneur ! Prêt à faire décoller ta carrière en ligne et à devenir le maître de ton destin ?<br>
