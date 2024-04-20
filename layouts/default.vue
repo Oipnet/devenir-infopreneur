@@ -1,5 +1,16 @@
 <script setup lang="ts">
-
+  useHead({
+    htmlAttrs: {
+      lang: 'fr'
+    },
+    script: [
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2253458813738703',
+        async: true,
+        crossorigin: 'anonymous'
+      }
+    ]
+  })
 </script>
 
 <template>
