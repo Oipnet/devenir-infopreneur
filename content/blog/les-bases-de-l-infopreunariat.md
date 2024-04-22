@@ -10,12 +10,9 @@ sitemap:
   changefreq: never
   priority: 0.8
 ---
-::post
 Hey toi, aspirant infopreneur ! Prêt à faire décoller ta carrière en ligne et à devenir le maître de ton destin ?<br>
-<br>
 <!--more-->
 Bienvenue dans le monde palpitant de l'infopreneuriat, où chaque clic peut devenir une opportunité et chaque idée, une success story.<br>
-<!--more-->
 Imagine ça : pas de patron pour te dicter quoi faire, pas de bureau gris où tu te sens prisonnier, juste toi, ton ordi et une tonne d'idées créatives à explorer.
 Ça te parle ? Alors accroche-toi, car je vais te guider à travers les premiers pas de cette aventure numérique.
 <br><br>
@@ -28,10 +25,3 @@ Maintenant, passons à l'action. Crée du contenu de qualité, que ce soit des a
 Enfin, ne perds pas de vue l'objectif ultime : monétiser ton expertise. Que ce soit par la vente de formations, d'e-books, de consultations ou même de produits physiques, trouve la façon qui te convient le mieux de transformer ton savoir en argent sonnant.
 <br><br>
 Voilà, tu as désormais les bases pour démarrer ta carrière d'infopreneur. Alors, qu'attends-tu ? Lance-toi dans cette aventure avec confiance, créativité et un soupçon d'audace. Le monde numérique n'attend que toi pour le conquérir. À toi de jouer !
-
-#illustration
-![Devenir Infopreneur](/content/images/devenir-infopreneur.jpeg)
-
-#title
-{{$doc.title}}
-::

@@ -10,7 +10,9 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     ['@nuxtjs/robots', {
       configPath: 'robots.config.ts'
-    }]
+    }],
+    'nuxt-viewport',
+    'nuxt3-leaflet',
   ],
   googleFonts: {
     families: {
@@ -23,5 +25,9 @@ export default defineNuxtConfig({
   },
   content: {
     documentDriven: true
+  },
+  runtimeConfig: {
+    sendApiKey: process.env.SEND_API_KEY,
+    senderEmail: process.env.SENDER_EMAIL,
   }
 })

@@ -49,7 +49,7 @@ const posts = await useLastPosts()
             <NuxtLink :to="`/blog/${post.slug}`" class="mb-4 inline-block font-oswald font-bold">
               <h3 class="text-primary text-xl">{{ post.title }}</h3>
             </NuxtLink>
-            <p>{{ post.excerpt }}</p>
+            <ContentRendererMarkdown :value="post.excerpt" />
           </template>
           <template #footer>
             <div class="flex flex-row justify-end">

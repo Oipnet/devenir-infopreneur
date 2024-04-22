@@ -1,4 +1,3 @@
-console.log('robots.config.ts')
 export default [
     { UserAgent: '*' },
     { Allow: '/' },

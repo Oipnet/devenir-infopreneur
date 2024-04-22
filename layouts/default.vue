@@ -41,11 +41,11 @@
     meta: [
       {
         name: 'msapplication-TileColor',
-        content: '#da532c',
+        content: '#5bbad5',
       },
       {
         name: 'theme-color',
-        content: '#fae9e3',
+        content: '#5bbad5',
       },
     ],
   })

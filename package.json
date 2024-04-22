@@ -17,9 +17,11 @@
     "@nuxtjs/sitemap": "^5.1.4",
     "@vercel/analytics": "^1.2.2",
     "nuxt": "^3.11.2",
+    "nuxt3-leaflet": "^1.0.12",
     "slugify": "^1.6.6",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.2.0",

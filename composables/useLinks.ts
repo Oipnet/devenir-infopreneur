@@ -8,9 +8,9 @@ export const useLinks = () => {
         //     label: 'Blog',
         //     to: '/blog',
         // },
-        // {
-        //     label: 'Contact',
-        //     to: '/contact',
-        // },
+        {
+            label: 'Contact',
+            to: '/contact',
+        },
     ];
 }
