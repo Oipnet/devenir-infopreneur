@@ -4,6 +4,17 @@ import PostCard from "~/components/blog/PostCard.vue";
 import {useCountPosts} from "~/composables/blog/useCountPosts";
 import type {Post} from "~/types/Post";
 
+useHead({
+  title: 'Devenir Infopreneur',
+  meta: [
+    {
+      name: 'description',
+      content: 'Plongez dans l’univers de l’infopreneuriat et découvrez comment transformer vos connaissances en business qui cartonne !'
+    }
+  ]
+
+})
+
 const state = reactive<{ data: Post[], postCount: number }>({
   data: [],
   postCount: 0

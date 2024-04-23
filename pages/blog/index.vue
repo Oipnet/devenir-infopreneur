@@ -13,6 +13,17 @@
   import {usePaginatePosts} from "~/composables/blog/usePaginatePosts";
   import {useCountPosts} from "~/composables/blog/useCountPosts";
 
+  useHead({
+    title: 'Devenir Infopreneur - Blog',
+    meta: [
+      {
+        name: 'description',
+        content: 'Plongez dans l’univers de l’infopreneuriat et découvrez comment transformer vos connaissances en business qui cartonne !'
+      }
+    ]
+
+  })
+
   const postPerPage = 10;
   const route = useRoute()
   const page = ref(parseInt(route.params.page as string) || 1)

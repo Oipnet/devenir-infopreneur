@@ -14,6 +14,17 @@ const slug: string = route.params.slug[0]
 const { data } = await useAsyncData(slug, () => queryContent(`blog/${slug}`).findOne())
 const title = data.value?.title
 const image = data.value?.coverImage
+useHead({
+  title: `Devenir Infopreneur - ${title}`,
+  meta: [
+    {
+      name: 'description',
+      content: 'Plongez dans l’univers de l’infopreneuriat et découvrez comment transformer vos connaissances en business qui cartonne !'
+    }
+  ]
+
+})
+
 </script>
 
 <style>

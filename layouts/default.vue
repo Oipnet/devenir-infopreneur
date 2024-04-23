@@ -57,9 +57,7 @@
     <UContainer>
       <slot />
     </UContainer>
-    <footer class="bg-secondary text-malibu-50 text-center">
-      ©2024 <nuxt-link to="https://forelse.info">Forelse</nuxt-link>
-    </footer>
+    <base-footer />
   </div>
 </template>
 

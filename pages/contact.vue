@@ -19,4 +19,15 @@ import ContactSummary from "~/components/contact/ContactSummary.vue";
 
 const viewport = useViewport()
 
+useHead({
+  title: 'Devenir Infopreneur - Contactez moi',
+  meta: [
+    {
+      name: 'description',
+      content: 'Plongez dans l’univers de l’infopreneuriat et découvrez comment transformer vos connaissances en business qui cartonne !'
+    }
+  ]
+
+})
+
 </script>
