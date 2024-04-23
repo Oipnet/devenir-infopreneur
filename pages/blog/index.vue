@@ -1,20 +1,15 @@
 <template>
   <NuxtLayout>
-    <h1 class="text-4xl font-oswald">Blog</h1>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8 mt-8">
-      <article v-for="post in state.data" :key="post.slug" class="bg-white p-4 rounded shadow">
-        <nuxt-link :to="`/blog/${post.slug}`">
-          <nuxt-img :src="post.coverImage" alt="" class="w-full rounded" />
-          <h2 class="text-xl font-oswald mt-4">{{ post.title }}</h2>
-          <ContentRendererMarkdown :value="post.excerpt" />
-        </nuxt-link>
-      </article>
+    <h1 class="text-4xl font-oswald mb-8">Blog</h1>
+    <div class="flex flex-col md:flex-row flex-wrap gap-4" v-if="state.data">
+      <post-card v-for="post in state.data" :key="post.slug" :post="post"/>
     </div>
     <UPagination v-model="page" :page-count="postPerPage" :total="state.postCount" class="mb-8"></UPagination>
   </NuxtLayout>
 </template>
 <script setup lang="ts">
   import type {Post} from "~/types/Post";
+  import PostCard from "~/components/blog/PostCard.vue";
 
   const postPerPage = 10;
   const route = useRoute()
