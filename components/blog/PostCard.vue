@@ -8,7 +8,7 @@ const props = defineProps<{
 
 <template>
   <UCard :ui="{
-          base: 'w-full md:w-1/3 mb-8',
+          base: 'w-full mb-8',
           header: {
             base: 'rounded-t-lg',
             padding: 'p-0 sm:p-0'
@@ -35,7 +35,7 @@ const props = defineProps<{
       <NuxtLink :to="`/blog/${post.slug}`" class="mb-4 inline-block font-oswald font-bold">
         <h3 class="text-primary text-xl">{{ post.title }}</h3>
       </NuxtLink>
-      <ContentRendererMarkdown :value="post.excerpt" />
+      <ContentRendererMarkdown :value="post.excerpt" v-if="post.excerpt"/>
     </template>
     <template #footer>
       <div class="flex flex-row justify-end">

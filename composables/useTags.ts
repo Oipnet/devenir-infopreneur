@@ -1,6 +1,7 @@
 import slugify from "slugify";
+import type {Post} from "~/types/Post";
 
-function createTagList(articles: any[]) {
+function createTagList(articles: Post[]) {
     const tagMap = {}; // Utilisez un objet pour stocker les articles par tag
 
     articles.forEach((article) => {
@@ -27,9 +28,7 @@ function createTagList(articles: any[]) {
 }
 
 export const useTags = async () => {
-    const articles = await queryContent('blog').find();
+    const articles = await queryContent<Post>('blog').find();
 
     return createTagList(articles)
-
-    return tagList
 }
