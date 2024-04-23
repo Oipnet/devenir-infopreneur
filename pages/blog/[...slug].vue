@@ -2,7 +2,7 @@
   <NuxtLayout>
     <article class="mb-8 blog-post">
       <h1 class="text-4xl font-oswald mb-8">{{ title }}</h1>
-      <nuxt-img :src="image" alt="" class="float-none mb-4 w-full md:float-right md:w-[400px] rounded md:m-4" />
+      <nuxt-img :src="image" alt="" class="float-none mb-4 w-full md:float-right md:w-[400px] rounded md:m-4" alt="Image de couverture" />
       <ContentRenderer :value="data" />
     </article>
   </NuxtLayout>
