@@ -1,12 +1,15 @@
 ---
-title: "Trouver votre créneau : Identifiez vos passions et compétences pour un infopreneuriat réussi"
-description: "Trouver votre créneau : Identifiez vos passions et compétences pour un infopreneuriat réussi"
-date: 2024-04-17
+title: "Trouver votre créneau"
+subTitle: "Identifiez vos passions et compétences pour un infopreneuriat réussi"
+description: "Découvrez l'étape cruciale de trouver votre créneau en tant qu'infopreneur. Explorez vos passions, évaluez vos compétences, étudiez le marché et apprenez à ajuster votre stratégie pour vous positionner comme une autorité dans votre domaine. Préparez-vous à briller dans le monde de l'infopreneuriat en trouvant votre créneau idéal dès aujourd'hui !"
+date: 2024-04-20
 slug: trouver-votre-creneau
 coverImage: /content/images/trouver-votre-creneau.jpeg
+next: /blog/construire-votre-audiance
+previous: /blog/les-bases-de-l-infopreunariat
 sitemap:
   loc: /blog/trouver-votre-creneau
-  lastmod: 2024-04-17
+  lastmod: 2024-04-20
   changefreq: never
   priority: 0.8
 ---

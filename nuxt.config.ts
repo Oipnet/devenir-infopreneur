@@ -29,5 +29,5 @@ export default defineNuxtConfig({
   runtimeConfig: {
     sendApiKey: process.env.SEND_API_KEY,
     senderEmail: process.env.SENDER_EMAIL,
-  }
+  },
 })

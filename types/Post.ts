@@ -1,5 +1,6 @@
 export interface Post {
     title: string
+    subTitle: string
     slug: string
     tags: string[]
     date: string

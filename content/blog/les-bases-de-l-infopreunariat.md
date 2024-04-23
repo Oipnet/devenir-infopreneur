@@ -1,9 +1,11 @@
 ---
-title: "Les bases de l'infopreneuriat : Lance-toi dans l'aventure !"
-description: "Les bases de l'infopreneuriat : Lance-toi dans l'aventure !"
+title: "Les bases de l'infopreneuriat"
+subTitle: "Lance-toi dans l'aventure !"
+description: "Découvrez les premiers pas excitants de l'infopreneuriat et apprenez à construire votre carrière en ligne en tant qu'infopreneur. Explorez les stratégies pour trouver votre niche, construire une audience engagée, créer un contenu de qualité et monétiser votre expertise. Préparez-vous à plonger dans cette aventure numérique avec confiance, créativité et détermination !"
 date: 2024-04-17
 slug: les-bases-de-l-infopreunariat
 coverImage: /content/images/devenir-infopreneur.jpeg
+next: /blog/trouver-votre-creneau
 sitemap:
   loc: /blog/les-bases-de-l-infopreunariat
   lastmod: 2024-04-17
