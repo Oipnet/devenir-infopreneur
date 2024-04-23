@@ -4,10 +4,10 @@ export const useLinks = () => {
             label: 'Accueil',
             to: '/',
         },
-        // {
-        //     label: 'Blog',
-        //     to: '/blog',
-        // },
+        {
+            label: 'Blog',
+            to: '/blog',
+        },
         {
             label: 'Contact',
             to: '/contact',
