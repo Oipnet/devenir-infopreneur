@@ -14,7 +14,7 @@ sitemap:
 ---
 Hey toi, aspirant infopreneur ! Prêt à faire décoller ta carrière en ligne et à devenir le maître de ton destin ?
 <!--more-->
-Bienvenue dans le monde palpitant de l'infopreneuriat, où chaque clic peut devenir une opportunité et chaque idée, une success story.<br>
+Bienvenue dans le monde palpitant de l'**infopreneuriat**, où chaque clic peut devenir une opportunité et chaque idée, une success story.
 Imagine ça : pas de patron pour te dicter quoi faire, pas de bureau gris où tu te sens prisonnier, juste toi, ton ordi et une tonne d'idées créatives à explorer.
 Ça te parle ? Alors accroche-toi, car je vais te guider à travers les premiers pas de cette aventure numérique.
 
