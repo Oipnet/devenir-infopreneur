@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     }],
     'nuxt-viewport',
     'nuxt3-leaflet',
-    'nuxt-security'
+    'nuxt-security',
+    'nuxt-time'
   ],
   googleFonts: {
     families: {

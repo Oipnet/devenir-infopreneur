@@ -1,6 +1,5 @@
 <script setup lang="ts">
 
-import SocialsLite from "~/components/base/SocialsLite.vue";
 </script>
 
 <template>

@@ -32,7 +32,7 @@ state.postCount = postCount.value || 0
     <header class="flex flex-col md:flex-row pt-10">
       <div class="w-full md:w-1/2 md:mt-32">
         <h1 class="font-oswald text-primary text-4xl uppercase mb-12">Devenir Infopreneur</h1>
-        <p>Plongez dans <strong class="font-bold font-oswald">l’univers de l’infopreneuriat</strong> et découvrez comment transformer vos connaissances en <strong class="font-bold font-oswald">business qui
+        <p>Plongez dans <strong class="font-bold font-oswald">l’univers de l’infopreneuriat</strong> et découvrez comment transformer vos connaissances en <strong class="font-bold font-oswald">business en ligne qui
           cartonne</strong> !</p>
       </div>
       <NuxtImg

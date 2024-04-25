@@ -2,7 +2,8 @@
   <NuxtLayout>
     <article class="mb-8 blog-post">
       <h1 class="text-4xl font-oswald mt-8 mb-2">{{ title }}</h1>
-      <h2 class="text-xl font-oswald mb-8">{{ subTitle }}</h2>
+      <h2 class="text-xl font-oswald text-primary">{{ subTitle }}</h2>
+      <span class="text-primary text-xs mb-8 inline-block">Publié le : <NuxtTime :datetime="date" /></span>
       <nuxt-img :src="image" alt="" class="float-none mb-4 w-full md:float-right md:w-[400px] rounded md:m-4" v-if="image"/>
       <ContentRenderer :value="data" />
     </article>
@@ -23,6 +24,7 @@ const image = data.value?.coverImage
 const next = data.value?.next
 const previous = data.value?.previous
 const description: string = data.value?.description || ''
+const date = data.value?.date
 useHead({
   title: `Devenir Infopreneur - ${title}`,
   meta: [
