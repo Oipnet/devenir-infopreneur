@@ -1,6 +1,10 @@
 <template>
   <NuxtLayout>
-    <h1 class="text-4xl font-oswald mb-8">Blog</h1>
+    <h1 class="text-4xl font-oswald mb-8 mt-12">Bienvenue sur le blog de devenir-infopreneur.net !</h1>
+    <p class="mb-8">
+      Explorez nos conseils et astuces pour booster votre activité en ligne. Trouvez l'inspiration et lancez-vous dans l'aventure de l'infopreneuriat dès maintenant !
+    </p>
+    <h2 class="text-4xl font-oswald mb-8">Les articles disponible</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4" v-if="state.data">
       <post-card v-for="post in state.data" :key="post.slug" :post="post"/>
     </div>
@@ -18,7 +22,7 @@
     meta: [
       {
         name: 'description',
-        content: 'Plongez dans l’univers de l’infopreneuriat et découvrez comment transformer vos connaissances en business qui cartonne !'
+        content: 'Explorez nos conseils et astuces pour booster votre activité en ligne. Trouvez l\'inspiration et lancez-vous dans l\'aventure de l\'infopreneuriat dès maintenant !'
       }
     ]
 
