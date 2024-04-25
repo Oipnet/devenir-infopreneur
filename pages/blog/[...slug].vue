@@ -3,7 +3,7 @@
     <article class="mb-8 blog-post">
       <h1 class="text-4xl font-oswald mt-8 mb-2">{{ title }}</h1>
       <h2 class="text-xl font-oswald mb-8">{{ subTitle }}</h2>
-      <nuxt-img :src="image" alt="" class="float-none mb-4 w-full md:float-right md:w-[400px] rounded md:m-4" />
+      <nuxt-img :src="image" alt="" class="float-none mb-4 w-full md:float-right md:w-[400px] rounded md:m-4" v-if="image"/>
       <ContentRenderer :value="data" />
     </article>
     <div class="text-right mb-8">

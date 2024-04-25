@@ -6,6 +6,7 @@ date: 2024-04-23
 slug: construire-votre-audiance
 coverImage: /content/images/construire-votre-audiance.jpeg
 previous: /blog/trouver-votre-creneau
+next: /blog/les-5-erreurs-a-eviter-en-tant-qu-infopreneur-debutant
 sitemap:
   loc: /blog/construire-votre-audiance
   lastmod: 2024-04-23
