@@ -22,12 +22,13 @@ const subTitle = data.value?.subTitle
 const image = data.value?.coverImage
 const next = data.value?.next
 const previous = data.value?.previous
+const description: string = data.value?.description || ''
 useHead({
   title: `Devenir Infopreneur - ${title}`,
   meta: [
     {
       name: 'description',
-      content: 'Plongez dans l’univers de l’infopreneuriat et découvrez comment transformer vos connaissances en business qui cartonne !'
+      content: description
     }
   ]
 
