@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     }],
     'nuxt-viewport',
     'nuxt3-leaflet',
+    'nuxt-security'
   ],
   googleFonts: {
     families: {
@@ -31,6 +32,8 @@ export default defineNuxtConfig({
     senderEmail: process.env.SENDER_EMAIL,
   },
   security: {
-    xFrameOptions: 'DENY',
+    headers: {
+      xFrameOptions: 'DENY',
+    }
   }
 })
