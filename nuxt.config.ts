@@ -30,4 +30,7 @@ export default defineNuxtConfig({
     sendApiKey: process.env.SEND_API_KEY,
     senderEmail: process.env.SENDER_EMAIL,
   },
+  security: {
+    xFrameOptions: 'DENY',
+  }
 })
