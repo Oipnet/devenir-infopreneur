@@ -1,7 +1,7 @@
 ---
 title: "Comment trouver l'inspiration quand vous êtes à court d'idées"
 subTitle: "Des astuces pour stimuler votre créativité d'infopreneur"
-description: "Découvrez des stratégies efficaces pour trouver l'inspiration lorsque vous vous sentez bloqué dans votre processus de création de contenu en tant qu'infopreneur. Stimulez votre créativité et générez des idées innovantes pour nourrir votre audience."
+description: "Trouvez l'inspiration quand vous êtes bloqué en tant qu'infopreneur. Stimulez votre créativité pour nourrir votre audience."
 date: 2024-04-26
 slug: comment-trouver-l-inspiration
 coverImage: /content/images/comment-trouver-l-inspiration.jpeg

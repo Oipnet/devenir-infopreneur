@@ -1,7 +1,7 @@
 ---
 title: "Construire votre audience"
 subTitle: "Stratégies efficaces pour attirer et fidéliser votre communauté en ligne"
-description: "Apprenez les stratégies essentielles pour attirer et fidéliser une audience engagée en tant qu'infopreneur. Découvrez comment comprendre votre public, créer un contenu de qualité, vous engager efficacement sur les réseaux sociaux et offrir une valeur ajoutée pour construire une communauté solide en ligne. Lancez-vous dès aujourd'hui dans la construction de votre communauté en ligne !"
+description: "Découvrez les stratégies essentielles pour attirer et fidéliser une audience engagée en tant qu'infopreneur. Construisez une communauté solide en ligne dès aujourd'hui !"
 date: 2024-04-23
 slug: construire-votre-audiance
 coverImage: /content/images/construire-votre-audiance.jpeg
