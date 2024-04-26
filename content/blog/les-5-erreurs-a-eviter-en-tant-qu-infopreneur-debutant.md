@@ -6,6 +6,7 @@ date: 2024-04-25
 slug: les-5-erreurs-a-eviter-en-tant-qu-infopreneur-debutant
 coverImage: /content/images/les-5-erreurs-a-eviter-en-tant-qu-infopreneur-debutant.jpeg
 previous: /blog/construire-votre-audiance
+next: /blog/comment-trouver-l-inspiration
 sitemap:
   loc: /blog/les-5-erreurs-a-eviter-en-tant-qu-infopreneur-debutant
   lastmod: 2024-04-25
