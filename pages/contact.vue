@@ -33,7 +33,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Plongez dans l’univers de l’infopreneuriat et découvrez comment transformer vos connaissances en business qui cartonne !'
+      content: 'Nous serions ravis d\'entendre parler de vous !  Utilisez le formulaire ci-dessous pour nous contacter.'
     }
   ]
 
