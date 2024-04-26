@@ -9,7 +9,7 @@ export const useLinks = () => {
             to: '/blog',
         },
         {
-            label: 'Contact',
+            label: 'Contactez-nous',
             to: '/contact',
         },
     ];

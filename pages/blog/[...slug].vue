@@ -2,8 +2,11 @@
   <NuxtLayout>
     <article class="mb-8 blog-post">
       <h1 class="text-4xl font-oswald mt-8 mb-2">{{ title }}</h1>
-      <h2 class="text-xl font-oswald text-primary">{{ subTitle }}</h2>
-      <span class="text-primary text-xs mb-8 inline-block">Publié le : <NuxtTime :datetime="date" /></span>
+      <h2 class="text-xl font-oswald text-primary mb-2">{{ subTitle }}</h2>
+      <div class="mb-8 flex flex-row justify-between mr-12">
+        <span class="text-primary text-xs inline-block self-center">Publié le : <NuxtTime :datetime="date" /></span>
+        <SocialShare network="facebook"/>
+      </div>
       <nuxt-img :src="image" alt="" class="float-none mb-4 w-full md:float-right md:w-[400px] rounded md:m-4" v-if="image"/>
       <ContentRenderer :value="data" />
     </article>

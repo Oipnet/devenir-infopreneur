@@ -14,7 +14,8 @@ export default defineNuxtConfig({
     'nuxt-viewport',
     'nuxt3-leaflet',
     'nuxt-security',
-    'nuxt-time'
+    'nuxt-time',
+    "@stefanobartoletti/nuxt-social-share"
   ],
   googleFonts: {
     families: {
