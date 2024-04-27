@@ -8,19 +8,21 @@ const props = defineProps<{
 </script>
 
 <template>
-  <LMap
+  <client-only>
+    <LMap
       ref="map"
       :zoom="zoom"
       :center="props.latlng"
-  >
-    <LTileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution="&amp;copy; <a href=&quot;https://www.openstreetmap.org/&quot;>OpenStreetMap</a> contributors"
-        layer-type="base"
-        name="OpenStreetMap"
-    />
-    <LMarker :lat-lng="props.latlng"> </LMarker>
-  </LMap>
+    >
+      <LTileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution="&amp;copy; <a href=&quot;https://www.openstreetmap.org/&quot;>OpenStreetMap</a> contributors"
+          layer-type="base"
+          name="OpenStreetMap"
+      />
+      <LMarker :lat-lng="props.latlng"> </LMarker>
+    </LMap>
+  </client-only>
 </template>
 
 <style scoped>

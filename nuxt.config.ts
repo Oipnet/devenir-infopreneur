@@ -37,10 +37,5 @@ export default defineNuxtConfig({
     headers: {
       xFrameOptions: 'DENY',
     }
-  },
-  routeRules: {
-    '/contact': {
-      'ssr': false
-    }
   }
 })
