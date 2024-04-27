@@ -37,5 +37,10 @@ export default defineNuxtConfig({
     headers: {
       xFrameOptions: 'DENY',
     }
+  },
+  routeRules: {
+    '/blog/*': {
+      'isr': true
+    }
   }
 })
