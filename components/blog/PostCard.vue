@@ -25,6 +25,8 @@ const props = defineProps<{
             :alt="post.title"
             class="rounded-t-lg w-full h-[200px] object-cover"
             sizes="200px"
+            loading="lazy"
+            preload
         />
       </NuxtLink>
       <div class="flex flex-row flex-wrap gap-2 mx-2 my-2">

@@ -39,6 +39,8 @@ state.postCount = postCount.value || 0
           src="/images/devenir-infopreneur.jpeg"
           sizes="100vw sm:50vw md:400px"
           class="rounded-full"
+          alt="Devenir Infopreneur"
+          preload
       />
     </header>
     <section>
