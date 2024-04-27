@@ -38,7 +38,7 @@ state.postCount = postCount.value || 0
       <NuxtImg
           src="/images/devenir-infopreneur.jpeg"
           sizes="100vw sm:50vw md:400px"
-          class="rounded-full"
+          class="rounded-full h-[100vw] w-[100vw] mt-8 sm:mt-0 sm:h-[50vw] sm:w-[50vw] md:h-[400px] md:w-[400px] object-cover"
           alt="Devenir Infopreneur"
           preload
       />
