@@ -6,6 +6,7 @@ date: 2024-04-26
 slug: comment-trouver-l-inspiration
 coverImage: /content/images/comment-trouver-l-inspiration.jpeg
 previous: /blog/les-5-erreurs-a-eviter-en-tant-qu-infopreneur-debutant
+next: /blog/les-5-etapes-pour-creer-un-produit-numerique-a-succes
 sitemap:
   loc: /blog/comment-trouver-l-inspiration
   lastmod: 2024-04-26
